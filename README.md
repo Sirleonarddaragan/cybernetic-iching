@@ -4,7 +4,7 @@
 
 [![Live Web Terminal](https://img.shields.io/badge/Live_Terminal-GitHub_Pages-amber?style=for-the-badge&logo=github)](https://sirleonarddaragan.github.io/cybernetic-iching/)
 [![Substack](https://img.shields.io/badge/Substack-Sir_Leonard_Daragan-orange?style=for-the-badge&logo=substack)](https://sirleonarddaragan.substack.com)
-[![Amazon Book](https://img.shields.io/badge/Amazon-352--Page_Collector's_Edition-blue?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0H6H1L7KB)
+[![Amazon Book](https://img.shields.io/badge/Amazon-352--Page_Collector's_Edition-blue?style=for-the-badge&logo=amazon)](https://www.amazon.com/author/sirleonarddaragan)
 
 ---
 
@@ -108,7 +108,7 @@ This software engine is an accompaniment to the monumental reference architectur
 * **Zero Mysticism:** Formulated through bare-metal systems architecture, feedback loops, Wienerian cybernetics, and information theory.
 * **Collector's Physical Editions:** Available now on Amazon in Case Laminate Hardcover ($32.99), Trade Paperback ($24.99), and Kindle ($9.99).
 
-👉 **[Order the Print & Kindle Editions on Amazon](https://www.amazon.com/dp/B0H6H1L7KB)**  
+👉 **[Order the Print & Kindle Editions on Amazon](https://www.amazon.com/author/sirleonarddaragan)**  
 👉 **[Read the Author's Field Dispatches on Substack](https://sirleonarddaragan.substack.com)**
 
 ---

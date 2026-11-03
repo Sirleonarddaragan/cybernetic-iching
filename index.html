@@ -483,7 +483,10 @@
 
     <div class="footer-actions">
         <button class="copy-btn" onclick="copyTelemetry()">Copy ASCII Telemetry</button>
-        <a class="book-link" href="https://www.amazon.com/dp/B0H6H1L7KB" target="_blank">[ Order The 352-Page Hardcover / Paperback on Amazon ]</a>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: center;">
+            <a class="book-link" href="https://sirleonarddaragan.substack.com" target="_blank" style="color: var(--text-cyan);">[ Read Field Dispatches on Substack ]</a>
+            <a class="book-link" href="https://www.amazon.com/author/sirleonarddaragan" target="_blank">[ Order The 352-Page Collector's Edition on Amazon ]</a>
+        </div>
     </div>
 </div>
 
@@ -743,7 +746,16 @@
     function copyTelemetry() {
         const text = document.getElementById('ascii-log').innerText;
         navigator.clipboard.writeText(text).then(() => {
-            alert('Terminal Telemetry copied to clipboard!');
+            const btn = document.querySelector('.copy-btn');
+            const orig = btn.innerText;
+            btn.innerText = '✓ TELEMETRY COPIED!';
+            btn.style.borderColor = 'var(--text-green)';
+            btn.style.color = 'var(--text-green)';
+            setTimeout(() => {
+                btn.innerText = orig;
+                btn.style.borderColor = '#334155';
+                btn.style.color = 'var(--text-cyan)';
+            }, 2200);
         });
     }
 
