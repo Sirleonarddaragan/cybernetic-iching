@@ -200,6 +200,13 @@ def run_oracle(method="yarrow", manual_vector=None):
         print(f"[TRANSFORMED STATE VECTOR (ZHI GUA 之卦)]: {changed_vector} // HEX: {t_hex} // KING WEN #{t_kw:02d}")
         print(f"CLASSICAL:  {t_name}")
         print(f"CYBERNETIC: {t_desc}")
+        print("\n--- MUTATED HARDWARE LINE STACK (AFTER PHASE SHIFT) ---")
+        for i in reversed(range(6)):
+            t_bit = changed_vector[i]
+            was_changing = raw_vals[i] in (6, 9)
+            tag = "  <-- [MUTATED BIT]" if was_changing else ""
+            glyph = "=========" if t_bit == '1' else "- -   - -"
+            print(f"Bit {i+1} [Line {i+1}]:   {glyph}{tag}")
         print("=" * 80)
 
 if __name__ == "__main__":
